@@ -22,8 +22,8 @@ namespace R29_ACT6
             // Recursos
             Button boton = (Button)sender;
             string mensajeError = "";
-            int num1 = Validacion.ValidarINT(textBoxEntrada.Text);
-            int num2 = Validacion.ValidarINT(textBoxEntrada2.Text);
+            int num1= 0;
+            int num2 = 0;
 
 
             // Reset a TRUE
@@ -32,6 +32,12 @@ namespace R29_ACT6
 
             try
             {
+
+                // Conversión
+                num1 = Validacion.ValidarINT(textBoxEntrada.Text);
+                num2 = Validacion.ValidarINT(textBoxEntrada2.Text);
+
+
                 switch (boton.Name)
                 {
                     case "BotonEvaluar":

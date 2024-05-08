@@ -89,7 +89,7 @@
             this.Controls.Add(this.labelNumero);
             this.Controls.Add(this.BotonEvaluar);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Evaluar Números";
             this.ResumeLayout(false);
             this.PerformLayout();
 
